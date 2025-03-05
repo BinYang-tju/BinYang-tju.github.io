@@ -1,4 +1,5 @@
-I am currently an Associate Researcher with the College of Intelligence and Computing, Tianjin University, Tianjin, China. And I am an member of HPC&Arch team, led by Prof. Ce Yu. From 2022 to 2024, I was a Postdoctoral Researcher in the TH-HPCA Group (advised by Prof.Wei Xue), Department of Computer Science and Technology, Tsinghua University, Beijing, China. 
+I am currently an Associate Researcher with the College of Intelligence and Computing, Tianjin University, Tianjin, China. And I am an member of HPC&Arch team, led by ***Prof. Ce Yu***. 
+From 2022 to 2024, I was a Postdoctoral Researcher in the TH-HPCA Group (advised by ***Prof.Wei Xue***), Department of Computer Science and Technology, Tsinghua University, Beijing, China. 
 I received the Ph.D degree from the School of Software, Shandong University, JiNan, China, in June 2022. My research interest includes HPC, parallel I/O, storage and AI system.
 
 
@@ -8,8 +9,8 @@ News
 
 Education
 ======
-- 2018 -- 2022, Shandong University, Shandong Jinan, Ph.D degree, Advisor: Prof. Weiguo Liu
-- 2015 -- 2018, Shandong University, Shandong Jinan, Master degree, Advisor: Prof. Weiguo Liu
+- 2018 -- 2022, Shandong University, Shandong Jinan, Ph.D degree, Advisor: ***Prof. Weiguo Liu and Prof. Wei Xue***
+- 2015 -- 2018, Shandong University, Shandong Jinan, Master degree, Advisor: ***Prof. Weiguo Liu***
 - 2011 -- 2015, Shandong University, Shandong Jinan, Bachelor degree
 
 
