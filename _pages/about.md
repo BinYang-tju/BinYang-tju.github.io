@@ -10,6 +10,7 @@ redirect_from:
 I am currently an Associate Researcher with the College of Intelligence and Computing, Tianjin University, Tianjin, China. And I am an member of HPC&Arch team, led by ***Prof. Ce Yu***. 
 From 2022 to 2024, I was a Postdoctoral Researcher in the TH-HPCA Group (advised by ***Prof.Wei Xue***), Department of Computer Science and Technology, Tsinghua University, Beijing, China. 
 I received the Ph.D degree from the School of Software, Shandong University, JiNan, China, in June 2022. 
+I have successively served as the principal investigator (PI) for projects including the China Postdoctoral Science Foundation Fund and the National Natural Science Foundation of China (NSFC) Young Scientists Fund. Additionally, as a core member, I have participated in multiple  National Key Research and Development Program projects.
 
 My research interest includes High-performance Computing, Parallel I/O, Performance Tools, Astronomical Data Processing, Storage and AI system.
 
@@ -62,10 +63,10 @@ Publications
 - Yibo Yang, Xiyang Wang, **Bin Yang**, Weiguo Liu, and Wei Xue; I/O Trace Tool for HPC applications over Sunway TaihuLight Supercomputer, CCF HPC China 2016,Best Paper
 
 
-Projects
+Funds and Projects
 ======
 - Young Scientists Fund of National Natural Science Foundation of China 
-- China Postdoctoral Science Foundation Funded Project
+- The 73rd batch of China Postdoctoral Science Foundation Funds
 
 Honors and Awards
 ======
