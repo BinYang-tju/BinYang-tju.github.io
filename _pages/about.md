@@ -11,7 +11,7 @@ I am currently an Associate Researcher with the College of Intelligence and Comp
 From 2022 to 2024, I was a Postdoctoral Researcher in the TH-HPCA Group (advised by ***Prof.Wei Xue***), Department of Computer Science and Technology, Tsinghua University, Beijing, China. 
 I received the Ph.D degree from the School of Software, Shandong University, JiNan, China, in June 2022. 
 
-My research interest includes High-performance Computing, parallel I/O, performance tools, storage and AI system.
+My research interest includes High-performance Computing, Parallel I/O, Performance Tools, Astronomical Data Processing, Storage and AI system.
 
 If you have any intriguing research directions or are interested in my current research focus, please feel free to contact me via [Email](mailto:yangbincic@tju.edu.cn). Let us collaborate and explore these topics together.
 
