@@ -13,7 +13,7 @@ I received the Ph.D degree from the School of Software, Shandong University, JiN
 
 My research interest includes High-performance Computing, parallel I/O, performance tools, storage and AI system.
 
-If you have any intriguing research directions or are interested in my current research focus, please feel free to contact me via email. Let us collaborate and explore these topics together
+If you have any intriguing research directions or are interested in my current research focus, please feel free to contact me via [Email](mailto:yangbincic@tju.edu.cn). Let us collaborate and explore these topics together.
 
 
 Education
