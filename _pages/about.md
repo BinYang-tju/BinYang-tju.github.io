@@ -62,8 +62,8 @@ Publications
 
 Projects
 ======
-- China Postdoctoral Science Foundation
-- Youth Fund of the National Natural Funding Committee of China
+- Young Scientists Fund of National Natural Science Foundation of China 
+- China Postdoctoral Science Foundation Funded Project
 
 Honors and Awards
 ======
