@@ -7,43 +7,66 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
-A data-driven personal website
+I am currently an Associate Researcher with the College of Intelligence and Computing, Tianjin University, Tianjin, China. And I am an member of HPC&Arch team, led by Prof. Ce Yu. From 2022 to 2024, I was a Postdoctoral Researcher in the TH-HPCA Group (advised by Prof.Wei Xue), Department of Computer Science and Technology, Tsinghua University, Beijing, China. I received the PhD degree from the School of Software, Shandong University, JiNan, China, in June 2022. My research interest includes HPC, parallel I/O, storage and AI system.
+
+
+News
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
-Getting started
+Education
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+- 2018 -- 2022, Shandong University, Shandong Jinan, Ph.D degree, Advisor: Prof. Weiguo Liu
+- 2015 -- 2018, Shandong University, Shandong Jinan, Master degree, Advisor: Prof. Weiguo Liu
+- 2011 -- 2015, Shandong University, Shandong Jinan, Bachelor degree
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Publications
+======
+[1]Bin Yang, Hao Wei, Wenhao Zhu, Yuhao Zhang, Weigu Liu, and Wei Xue; Full Lifecycle Data Analysis on a Large-scale and Leadership Supercomputer: What Can We Learn from It? USENIX ATC 2024, CCF-A
 
-**Markdown generator**
+[2]Bin Yang, Wei Xue, Tianyu Zhang, Xiaosong Ma, Xiyang Wang and Weiguo Liu; End-to-end I/O Monitoring on Leading Supercomputers, ACM TOS 2023, CCF-A
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+[3]Xiaobin He, Bin Yang (Co first author) , Jie Gao, Wei Xiao, Qi Chen, Shupeng Shi, Dexun Chen, Weiguo Liu, Wei Xue, Zuo-ning Chen; HadaFS: A File System Bridging the Local and Shared Burst Buffer for Exascale Supercomputers, FAST 2023, CCF-A
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+[4]Bin Yang, Yanliang Zou, Weiguo Liu and Xue wei; An End-to-end and Adaptive I/O Optimization Tool for Modern HPC Storage Systems, IPDPS 2022, CCF-B
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+[5]Bin Yang, Xu Ji, Xiaosong Ma, Xiyang Wang, Tianyu Zhang, Xiupeng Zhu, Nosayba El-Sayed, Haidong Lan, Yibo Yang, Jidong Zhai, Weiguo Liu and Wei Xue; End-to-end I/O Monitoring on a Leading Supercomputer, NSDI 2019, CCF-A
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+[6]Xu Ji, Bin Yang,Tianyu Zhang, Xiaosong Ma, Xiupeng Zhu, Xiyang Wang, Nosayba EI-Sayed, Jidong Zhai, Weiguo Liu and Wei Xue; Automatic, Application-Aware I/O Forwarding Resource Allocation for High-end System, FAST 2019, CCF-A
+
+[7]Yiyuan Li, Xiting Ju, Yi Xiao, Qilong Jia, Yongxiao Zhou, Simeng Qian, Rongfen Lin, Bin Yang, Shupeng Shi, Xin Liu, Jie Gao, Zhen Wang, Sha Liu, Jian Tan, Xuan Wang, Zhengding Hu, Limin Yan, and Wei Xue; Rapid Simulations of Atmospheric Data Assimilation of Hourly-Scale Phenomena with Modern Neural Networks, SC 2023, CCF-A
+
+[8]Qi Chen, Kang Chen, Zuo-Ning Chen, Wei Xue, Xu Ji, and Bin Yang; Lesons learned from optimizing the Sunway storage system for higher application I/O performance, JCST 2020, CCF-B
+
+[9]Xiaobin He, Wei Xiao, Xun Deng, Qi Chen, Bin Yang, Zuoning Chen; DFBuffer: High-performance data forwarding software optimized for single-process IO scenarios, ICPADS 2023,CCF-C
+
+[10]Xiting Ju, Yiyuan Li, Yi Xiao, Qilong Jia, Yongxiao Zhou, Simeng Qian, Rongfen Lin,Bin Yang, Shupeng Shi, Xin Liu, Jie Gao, Zhen Wang, Sha Liu, Jian Tan, Xuan Wang, Zhengding Hu, Limin Yan, and Wei Xue; High-Performance Cross-Platform DNN-Enabled Atmospheric Data Assimilation System, CCF HPC China 2023, Best Paper
+
+[11]Xiaohui Duan, Yuxuan Li, Zhao Liu,Bin Yang et. al;Achieving Kilometer-Level Coupled Modeling on a 40-Million-Core Sunway Supercomputer: A Three-Week Porting Experiment, CCF HPC China 2023, Best Paper
+
+[12]Wenhao Zhu, Hao Wei, Bin Yang, Weiguo Liu, Wei Xue; Research and Application of I/O Burst Detection Algorithm for Large-scale Computing Systems, CCF HPC China 2023
+
+[13]杨斌， 王敬宇， 刘世超， 邵明山， 肖伟， 陈起， 何晓斌， 刘卫国， 薛巍；Beacon+ :面向E级超级计算机的轻量级 端到端I/O 性能监控与分析诊断系统，Computer Engineering & Science/Jisuanji Gongcheng yu Kexue 44 (9) 2022， CCF-T3
+
+[14]杨斌， 王敬宇， 刘卫国， 蔡蕙伊， 于翡， 邓莲堂， 黄丽萍；GRAPES 区域模式的输入输出分析和优化，电子技术应用 2022，北大核心
+
+[15]刘世超， 杨斌， 刘卫国；高性能高可用Redis客户端的设计与实现，电子技术应用 2022，北大核心
+
+[16]Bin Yang, Shichao Liu, Mingshan Shao, Yanliang Zou, Shengyi Gao, Wei Xiao, Qi Chen, Xiaobin He, Weiguo Liu and Wei Xue; Beacon Plus: A Scalable Lightweight End-to-end I/O Performance Monitoring, Analysis and Diagnosis System for Exascale Supercomputer, CCF HPC China 2021
+
+[17]Yibo Yang, Xiyang Wang, Bin Yang, Weiguo Liu, and Wei Xue; I/O Trace Tool for HPC applications over Sunway TaihuLight Supercomputer, CCF HPC China 2016,Best Paper
+
+
+Projects
+======
+China Postdoctoral Science Foundation
+Youth Fund of the National Natural Funding Committee of China
+
+Honors and Awards
+======
+- 2022 ACM SIGHPC CHINA DOCTORAL DISSERTATION AWARD
+- 2024 Selected for the Outstanding Doctoral Award Scheme of the CCF Information Technology Storage Professional Committee
+- 2024 Outstanding Instructor of National Student Computer System Proficiency Competition - Intelligent Computing Innovation Design Competition (National First Prize, NationalSecond Prize)
+
